@@ -11,6 +11,9 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 export const metadata: Metadata = {
     title: 'RS Data Statistics - Jasa Analisis Data Terpercaya',
     description: 'Jasa Olah Analisis Data Terpercaya di Indonesia #1',
+    icons: {
+        icon: '/iconrsdatastatistics.png',
+    },
 };
 
 export default function RootLayout({
