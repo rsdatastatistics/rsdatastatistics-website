@@ -1,0 +1,47 @@
+.container {
+    padding: 120px 5% 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: var(--font-outfit);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.emptyState {
+    background: #FFFFFF;
+    padding: 4rem 2rem;
+    border-radius: 16px;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    .emptyState {
+        background: #FFFFFF;
+        border: 1px dashed rgba(0, 0, 0, 0.1);
+    }
+}
+
+.emptyState h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.emptyState p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}

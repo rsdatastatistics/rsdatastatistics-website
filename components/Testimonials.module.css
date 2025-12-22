@@ -1,0 +1,120 @@
+.section {
+    padding: 5rem 0;
+    background: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    .section {
+        background: #FFFFFF;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-outfit);
+    color: #0070f3;
+    /* Blue highlight like reference */
+}
+
+.title span {
+    color: #1a202c;
+    /* This sets "Our" to Black */
+}
+
+.swiperContainer {
+    width: 100%;
+    padding-bottom: 50px !important;
+    /* Space for pagination */
+}
+
+.slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 16px;
+    position: relative;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    /* Ensure equal height */
+}
+
+@media (prefers-color-scheme: dark) {
+    .card {
+        background: #FFFFFF;
+        border-color: #e2e8f0;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    background: #0070f3;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.name {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.occupation {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+.stars {
+    display: flex;
+    gap: 2px;
+    margin-top: 4px;
+}
+
+.text {
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+.googleIcon {
+    width: 16px;
+    height: 16px;
+    display: none;
+    /* Placeholder if no image */
+}

@@ -1,0 +1,41 @@
+.article {
+    padding: 120px 5% 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.header {
+    margin-bottom: 3rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-family: var(--font-outfit);
+}
+
+.meta {
+    color: #666;
+    font-size: 1rem;
+}
+
+.content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}

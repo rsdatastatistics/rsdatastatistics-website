@@ -1,0 +1,47 @@
+.section {
+    padding: 6rem 1rem;
+    background: #f8fafc;
+    /* Light gray background to separate from testimonials */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 2.5rem;
+    line-height: 1.2;
+}
+
+.ctaButton {
+    background: #f97316;
+    /* Bright Orange */
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 9999px;
+    /* Pill shape */
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(249, 115, 22, 0.3), 0 2px 4px -1px rgba(249, 115, 22, 0.1);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ctaButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.4), 0 4px 6px -2px rgba(249, 115, 22, 0.2);
+    background: #ea580c;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+    }
+}
