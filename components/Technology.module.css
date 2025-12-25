@@ -42,14 +42,36 @@
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+    }
+
+    .title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
     .grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        row-gap: 2.5rem;
     }
 }
 
 @media (max-width: 480px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        row-gap: 2rem;
+    }
+
+    .iconWrapper {
+        height: 48px;
+    }
+
+    .iconWrapper svg {
+        width: 32px;
+        height: 32px;
     }
 }
 

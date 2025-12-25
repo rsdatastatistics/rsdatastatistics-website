@@ -41,7 +41,17 @@
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 4rem 1rem;
+    }
+
     .heading {
         font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .ctaButton {
+        width: 100%;
+        max-width: 300px;
     }
 }

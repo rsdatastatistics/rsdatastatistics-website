@@ -57,3 +57,19 @@
         border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 3rem 0 2rem;
+    }
+
+    .container {
+        gap: 2.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+    }
+}

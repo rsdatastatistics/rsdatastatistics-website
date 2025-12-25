@@ -118,3 +118,18 @@
     display: none;
     /* Placeholder if no image */
 }
+
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+    }
+
+    .title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+}

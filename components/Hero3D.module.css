@@ -100,15 +100,41 @@
 }
 
 @media (max-width: 768px) {
+    .hero {
+        padding: 7rem 0.5rem 4rem 0.5rem;
+        /* Reduce side padding to give more width */
+        min-height: 60vh;
+    }
+
     .title {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
+        word-wrap: break-word;
+        /* Legacy support */
+        overflow-wrap: anywhere;
+        /* Allows breaking anywhere to prevent overflow */
+        word-break: break-word;
+        hyphens: auto;
+        /* Adds hyphens if word breaks */
+        width: 100%;
+        max-width: 100%;
+        line-height: 1.3;
     }
 
     .description {
         font-size: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 0 1rem;
+        /* Add side padding to keep text away from edges */
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .numberOne {
         font-size: 3rem;
+    }
+
+    .ctaButton {
+        padding: 0.8rem 2rem;
+        font-size: 0.95rem;
     }
 }
