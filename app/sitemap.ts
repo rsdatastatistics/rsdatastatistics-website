@@ -3,7 +3,7 @@ import { getSortedPostsData } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const posts = getSortedPostsData();
-    const baseUrl = 'https://rsdatastatistics.com';
+    const baseUrl = 'https://rsdatastatistics.vercel.app';
 
     const blogEntries = posts.map((post) => ({
         url: `${baseUrl}/blogs/${post.slug}`,

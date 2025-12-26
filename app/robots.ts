@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/admin/',
         },
-        sitemap: 'https://rsdatastatistics.com/sitemap.xml',
+        sitemap: 'https://rsdatastatistics.vercel.app/sitemap.xml',
     };
 }
